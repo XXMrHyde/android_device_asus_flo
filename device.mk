@@ -33,7 +33,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     nfc_nci.flo
 
-# Dark Jelly N4 Edition additions
+# Dark Jelly N7 Edition additions
 
 # Copy over the Dark Jelly N4 Edition changelog to the device
 PRODUCT_COPY_FILES += \
