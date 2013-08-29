@@ -33,6 +33,23 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     nfc_nci.flo
 
+# Dark Jelly N4 Edition additions
+
+# Copy over the Dark Jelly N4 Edition changelog to the device
+PRODUCT_COPY_FILES += \
+    device/asus/flo/CHANGELOG-DJE.txt:system/etc/CHANGELOG-DJE.txt
+
+# Dark Jelly N4 Edition Property Overrides
+
+PRODUCT_PROPERTY_OVERRIDES += \
+	ro.dj.version=Dark-Jelly-N7-Edition-(Build-0) \
+    updateme.name=Dark-Jelly-N7-Edition \
+    updateme.version=0.0.0 \
+    updateme.urlcheck=http://<-add-url-here-> \
+    updateme.reboottype=2 \
+    updateme.disableinstalledapps=1 \
+    updateme.disablescripts=1
+
 # the actual meat of the device-specific product definition
 $(call inherit-product, device/asus/flo/device-common.mk)
 
