@@ -33,17 +33,17 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     nfc_nci.flo
 
-# Dark Jelly N7 Edition additions
+# Dark Jelly additions
 
-# Copy over the Dark Jelly N4 Edition changelog to the device
+# Copy over the Dark Jelly changelog to the device
 PRODUCT_COPY_FILES += \
-    device/asus/flo/CHANGELOG-DJE.txt:system/etc/CHANGELOG-DJE.txt
+    device/asus/flo/CHANGELOG-DJ.txt:system/etc/CHANGELOG-DJ.txt
 
-# Dark Jelly N4 Edition Property Overrides
+# Dark Jelly Property Overrides
 
 PRODUCT_PROPERTY_OVERRIDES += \
-	ro.dj.version=Dark-Jelly-N7-Edition-(Build-0) \
-    updateme.name=Dark-Jelly-N7-Edition \
+	ro.dj.version=Dark-Jelly-(Build-0) \
+    updateme.name=Dark-Jelly \
     updateme.version=0.0.0 \
     updateme.urlcheck=http://<-add-url-here-> \
     updateme.reboottype=2 \

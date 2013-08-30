@@ -1,14 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- Dark Jelly Edition Section Title strings -->
-	<string name="dje_section_title">Dark Jelly N7 Edition</string>
-
-    <!-- Dark Jelly Edition Change Log strings -->
-    <string name="djechangelog_summary">Dark Jelly N7 Edition Change Log</string>
-
-    <!-- Dark Jelly Edition Updates -->
-    <string name="update_me_app_settings_summary">Dark Jelly N7 Edition Updates</string>
-
     <!-- Wifi only devices specific strings -->
     <string name="cw_label_style_title">Wifi network name</string>
 </resources>
