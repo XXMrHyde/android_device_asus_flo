@@ -21,12 +21,14 @@
 # Inherit from the common Open Source product configuration
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base.mk)
 
+# Inherit from the darkkat vendor common configuration
+$(call inherit-product, vendor/dk/config/common.mk)
+
 PRODUCT_NAME := aosp_flo
 PRODUCT_DEVICE := flo
 PRODUCT_BRAND := Android
 PRODUCT_MODEL := Nexus 7
 PRODUCT_MANUFACTURER := ASUS
-PRODUCT_RESTRICT_VENDOR_FILES := true
 
 # Inherit from hardware-specific part of the product configuration
 $(call inherit-product, device/asus/flo/device.mk)
