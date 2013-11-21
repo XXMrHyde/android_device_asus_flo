@@ -31,6 +31,12 @@ PRODUCT_BRAND := Android
 PRODUCT_MODEL := Nexus 7
 PRODUCT_MANUFACTURER := ASUS
 
+# Kernel inline build
+TARGET_KERNEL_SOURCE := kernel/msm/flo
+TARGET_KERNEL_CONFIG := flo_defconfig
+TARGET_VARIANT_CONFIG := flo_defconfig
+TARGET_SELINUX_CONFIG := flo_defconfig
+
 # Inherit from hardware-specific part of the product configuration
 $(call inherit-product, device/asus/flo/device.mk)
 $(call inherit-product-if-exists, vendor/asus/flo/device-vendor.mk)
