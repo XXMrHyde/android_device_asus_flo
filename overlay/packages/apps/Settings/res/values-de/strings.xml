@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Wifi only devices specific strings -->
+    <string name="custom_carrier_label_title">Wifi Netzwerk Name anpassen</string>
+    <string name="custom_carrier_label_notset">Kein angepasster Netzwerk Name gesetzt</string>
+    <string name="show_custom_carrier_label_title">Angepasster Wifi Netzwerk Name</string>
+    <string name="show_custom_carrier_label_enabled_summary">Aktivieren, um den angepassten Wifi Netzwerk Namen anzuzeigen</string>
+    <string name="custom_carrier_label_explain">Gib bitte einen neuen Namen ein. Lass das Feld leer, um den originalen Wifi Netzwerk Namen wieder herzustellen.</string>
+    <string name="cw_label_style_title">Wifi Netzwerk Name</string>
+</resources>
