@@ -18,7 +18,6 @@
 # Sample: This is where we'd set a backup provider if we had one
 # $(call inherit-product, device/sample/products/backup_overlay.mk)
 
-
 # Inherit from the common Open Source product configuration
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base.mk)
 
@@ -30,12 +29,6 @@ PRODUCT_DEVICE := flo
 PRODUCT_BRAND := Android
 PRODUCT_MODEL := Nexus 7
 PRODUCT_MANUFACTURER := ASUS
-
-# Kernel inline build
-TARGET_KERNEL_SOURCE := kernel/msm/flo
-TARGET_KERNEL_CONFIG := flo_defconfig
-TARGET_VARIANT_CONFIG := flo_defconfig
-TARGET_SELINUX_CONFIG := flo_defconfig
 
 # Inherit from hardware-specific part of the product configuration
 $(call inherit-product, device/asus/flo/device.mk)
