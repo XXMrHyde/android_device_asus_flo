@@ -30,9 +30,6 @@ PRODUCT_BRAND := Android
 PRODUCT_MODEL := Nexus 7
 PRODUCT_MANUFACTURER := ASUS
 
-# Device specific part of the OTA update uri
-PRODUCT_UPDATE_URI_PART := 52fzq6aoh9yyw52/dk_update_flo.json
-
 # Inherit from hardware-specific part of the product configuration
 $(call inherit-product, device/asus/flo/device.mk)
 $(call inherit-product-if-exists, vendor/asus/flo/device-vendor.mk)
