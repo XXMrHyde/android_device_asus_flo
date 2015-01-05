@@ -29,5 +29,9 @@ PRODUCT_BRAND := Android
 PRODUCT_MODEL := Nexus 7 WIFI
 PRODUCT_MANUFACTURER := ASUS
 
+# Bootanimation
+PRODUCT_COPY_FILES += \
+  device/asus/flo/bootanimation/bootanimation.zip:system/media/bootanimation.zip
+
 $(call inherit-product, device/asus/flo/device.mk)
 $(call inherit-product-if-exists, vendor/asus/flo/device-vendor.mk)
