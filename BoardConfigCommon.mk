@@ -34,6 +34,7 @@ BOARD_KERNEL_CMDLINE += vmalloc=340M
 BOARD_MKBOOTIMG_ARGS := --ramdisk_offset 0x02000000
 
 # Kernel inline build
+TARGET_KERNEL_CUSTOM_TOOLCHAIN := arm-eabi-4.6
 TARGET_KERNEL_SOURCE := kernel/msm/flo
 TARGET_KERNEL_CONFIG := flo_defconfig
 TARGET_VARIANT_CONFIG := flo_defconfig
